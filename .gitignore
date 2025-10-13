@@ -1,0 +1,72 @@
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+.venv/*
+venv.bak/
+
+# dotenv and secrets
+.env
+.env.*
+.env.local
+secrets.json
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Byte-compiled / temporary
+*.so
+*.dylib
+*.dll
+*.log
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints
+
+# Static caches and system files
+.DS_Store
+Thumbs.db
+
+# Language-chain / model caches
+.cache/
+models/
+hf_models/
+huggingface/
+transformers_cache/
+accelerate/
+
+# Misc
+.ropeproject/
+.mypy_cache/
+.pyre/
+coverage.xml
